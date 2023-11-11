@@ -327,8 +327,9 @@ button {
   flex-wrap: wrap;
   row-gap: 48px;
 }
-.portfolio-list-item{
-  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+.portfolio-list-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-container {
@@ -375,7 +376,7 @@ button {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
-  padding: 40px 32px; 
+  padding: 40px 32px;
 }
 
 .portfolio-list-item:hover .text-overlay {
@@ -428,7 +429,7 @@ button {
 }
 .footer-icons-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   align-items: center;
 }
 .footer-icons-items {
@@ -446,7 +447,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons-link:hover,
-.footer_icons_link:focus {
+.footer-icons-link:focus {
   background-color: #31d0aa;
 }
 .footer-list-icons {
