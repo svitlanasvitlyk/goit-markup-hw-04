@@ -62,6 +62,8 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-inner {
   display: flex;
@@ -133,6 +135,7 @@ button {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-item:hover,
 .address-item:focus {
@@ -149,6 +152,9 @@ button {
     ),
     url("../images/bg-hero.jpg");
   background-size: cover;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-title {
   color: #ffffff;
@@ -179,6 +185,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -276,6 +283,7 @@ button {
   display: flex;
   gap: 24px;
   align-items: center;
+  justify-content: center;
 }
 .team-icons-items {
   width: 40px;
